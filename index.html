@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel= "icon" href="./assets/svg/portfolio.ico">
+      <title>Artur Stamboltsyan - CV</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./style.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   </head>
+   <body style="font-family: 'Rubik', sans-serif;">
+      <header>
+         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container navbar-brand-container">
+               <a href="" class="navbar-brand">
+               <img src="./assets/img/logo.png" class="logo" alt="logo">
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-expanded="false" style="border: none">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="offcanvas offcanvas-end text-bg-dark ms-auto" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style="max-width: 80%;">
+                  <div class="offcanvas-header">
+                     <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel" data-i18="menu">Menu</h5>
+                     <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                     <ul class="navbar-nav ms-auto">
+                        <li class="nav-item" data-bs-toggle="offcanvas">
+                           <a href="#summary-section" class="nav-link" data-i18="about"></a>
+                        </li>
+                        <li class="nav-item" data-bs-toggle="offcanvas">
+                           <a href="#skills-section" class="nav-link" data-i18="skills"></a>
+                        </li>
+                        <li class="nav-item" data-bs-toggle="offcanvas">
+                           <a href="#works" class="nav-link" data-i18="works"></a>
+                        </li>
+                        <li class="nav-item" data-bs-toggle="offcanvas">
+                           <a href="#contacts-section" class="nav-link" data-i18="contacts"></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-i18="language">
+                           </a>
+                           <ul class="dropdown-menu dropdown-menu-dark" style="left: -71px;">
+                              <li><a class="dropdown-item">Russian</a></li>
+                              <li><a class="dropdown-item">English</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <main>
+         <div class="container summary-container">
+            <section class="summary" id="summary-section">
+               <section class="section-header">
+                  <h3 data-i18="about"></h3>
+               </section>
+               <section class="aboutme">
+                  <div class="card card-avatar" style="width: 18rem;">
+                     <img src="./assets/img/avatar.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title" data-i18="name"></h5>
+                        <p class="card-text" data-i18="profession"></p>
+                     </div>
+                  </div>
+                  <div class="card about-card">
+                     <p class="card-text about-text" data-i18="abouttext1"></p>
+                     <p class="card-text about-text" data-i18="abouttext2"></p>
+                     <a href="#contacts-section" data-i18="contacts" class="btn btn-primary"></a>
+                  </div>
+               </section>
+            </section>
+         </div>
+         <div class="container-fluid bg-dark text-bg-primary skills-container" id="skills-section">
+            <section class="skills">
+               <section class="section-header">
+                  <h3 data-i18="skills"></h3>
+               </section>
+               <div class="container">
+                  <section class="skills-blocks">
+                     <div class="coding">
+                        <div class="coding-card">
+                           <div class="coding-item">
+                              <img src="./assets/svg/HTML5.svg" alt="" class="coding-img">
+                              <span>HTML</span>
+                           </div>
+                           <div class="progress">
+                              <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 90%; justify-content: unset; background-color: #ea5827eb!important;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                 <p>90%</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="coding-card">
+                           <div class="coding-item">
+                              <img src="./assets/svg/CSS3.svg" alt="" class="coding-img">
+                              <span>CSS</span>
+                           </div>
+                           <div class="progress">
+                              <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 85%; justify-content: unset; background-color: #2062af!important;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                 <p>85%</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="coding-card">
+                           <div class="coding-item">
+                              <img src="./assets/svg/JS.svg" alt="" class="coding-img">
+                              <span>JS</span>
+                           </div>
+                           <div class="progress">
+                              <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 70%; justify-content: unset; background-color: #d5c44e!important;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                 <p>70%</p>
+                              </div>
+                           </div>
+                        </div>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="Активно изучаю">
+                           <div class="coding-card">
+                              <div class="coding-item">
+                                 <img src="./assets/svg/REACT.svg" alt="" class="coding-img">
+                                 <span>React</span>
+                              </div>
+                              <div class="progress">
+                                 <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 30%; justify-content: unset; background-color: #15a6c0!important;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                    <p>30%</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </span>
+                        <div class="coding-card">
+                           <div class="coding-item">
+                              <img src="./assets/svg/github.svg" alt="" class="coding-img">
+                              <span>Git/GitHub</span>
+                           </div>
+                           <div class="progress">
+                              <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 80%; justify-content: unset;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                 <p>80%</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </section>
+               </div>
+            </section>
+         </div>
+         <section class="works" id="works">
+            <section class="section-header">
+               <h3 data-i18="works"></h3>
+            </section>
+            <div id="carouselExampleControls" class="carousel slide">
+               <div class="carousel-inner" style="padding: 10px;">
+                  <div class="carousel-item active">
+                     <section class="works-section d-flex gap-2 justify-content-center">
+                        <div class="card card-hover" style="width: 18rem;">
+                           <img src="./assets/img/work1.png" class="card-img-top" alt="...">
+                           <div class="card-body">
+                              <h5 class="card-title">LangTrip</h5>
+                              <p class="card-text" data-i18="card1-text"></p>
+                              <a href="https://lang-trip.netlify.app/" target="_blank" class="btn btn-primary" data-i18="card-button"></a>
+                           </div>
+                        </div>
+                        <div class="card card-hover" style="width: 18rem;">
+                           <img src="./assets/img/work2.png" class="card-img-top" alt="...">
+                           <div class="card-body">
+                              <h5 class="card-title">Portfolio</h5>
+                              <p class="card-text" data-i18="card2-text"></p>
+                              <a href="https://rolling-scopes-school.github.io/arturstm-JSFEPRESCHOOL/portfolio/" target="_blank" class="btn btn-primary" data-i18="card-button"></a>
+                           </div>
+                        </div>
+                        <div class="card card-hover" style="width: 18rem;">
+                           <img src="./assets/img/work3.png" class="card-img-top" alt="...">
+                           <div class="card-body">
+                              <h5 class="card-title">Shelter</h5>
+                              <p class="card-text" data-i18="card3-text"></p>
+                              <a href="https://rolling-scopes-school.github.io/arturstm-JSFE2022Q1/shelter/pages/main/index.html" target="_blank" class="btn btn-primary" data-i18="card-button"></a>
+                           </div>
+                        </div>
+                     </section>
+                  </div>
+                  <div class="carousel-item">
+                     <section class="works-section d-flex gap-2 justify-content-center">
+                        <div class="card card-hover" style="width: 18rem;">
+                           <img src="./assets/img/work4.png" class="card-img-top" alt="...">
+                           <div class="card-body">
+                              <h5 class="card-title">Custom Video</h5>
+                              <p class="card-text" data-i18="card4-text"></p>
+                              <a href="https://rolling-scopes-school.github.io/arturstm-JSFEPRESCHOOL/js30customvideo/" target="_blank" class="btn btn-primary" data-i18="card-button"></a>
+                           </div>
+                        </div>
+                        <div class="card card-hover" style="width: 18rem;">
+                           <img src="./assets/img/work5.png" class="card-img-top" alt="...">
+                           <div class="card-body">
+                              <h5 class="card-title">Random Quote</h5>
+                              <p class="card-text" data-i18="card5-text"></p>
+                              <a href="https://rolling-scopes-school.github.io/arturstm-JSFEPRESCHOOL/js30randomjokes/" target="_blank" class="btn btn-primary" data-i18="card-button"></a>
+                           </div>
+                        </div>
+                        <div class="card card-hover" style="width: 18rem;">
+                           <img src="./assets/img/work6.png" class="card-img-top" alt="...">
+                           <div class="card-body">
+                              <h5 class="card-title">Snake game</h5>
+                              <p class="card-text" data-i18="card6-text"></p>
+                              <a href="https://rolling-scopes-school.github.io/arturstm-JSFEPRESCHOOL/js30randomgame/" target="_blank" class="btn btn-primary" data-i18="card-button"></a>
+                           </div>
+                        </div>
+                     </section>
+                  </div>
+                  <div class="carousel-item">
+                     <section class="works-section d-flex gap-2  justify-content-center">
+                        <div class="card card-hover" style="width: 18rem;">
+                           <img src="./assets/img/work7.png" class="card-img-top" alt="...">
+                           <div class="card-body">
+                              <h5 class="card-title">Online Store</h5>
+                              <p class="card-text" data-i18="card7-text"></p>
+                              <a href="https://rolling-scopes-school.github.io/arturstm-JSFE2022Q1/Online-store/pages/home/" target="_blank" class="btn btn-primary" data-i18="card-button"></a>
+                           </div>
+                        </div>
+                        <div class="card card-hover" style="width: 18rem;">
+                           <img src="./assets/img/work8.png" class="card-img-top" alt="...">
+                           <div class="card-body">
+                              <h5 class="card-title">Random Hero</h5>
+                              <p class="card-text" data-i18="card8-text"></p>
+                              <a href="http://f0733861.xsph.ru" target="_blank" class="btn btn-primary" data-i18="card-button"></a>
+                           </div>
+                        </div>
+                        <div class="card card-hover" style="width: 18rem;">
+                           <img src="./assets/img/work9.png" class="card-img-top" alt="...">
+                           <div class="card-body">
+                              <h5 class="card-title">AtlanticTruck</h5>
+                              <p class="card-text" data-i18="card9-text"></p>
+                              <a href="https://artcittruck.artur25968.repl.co" target="_blank" class="btn btn-primary" data-i18="card-button"></a>
+                           </div>
+                        </div>
+                     </section>
+                  </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1) sepia(0%) saturate(19%) hue-rotate(359deg) brightness(103%) contrast(105%);"></span>
+               <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1) sepia(0%) saturate(19%) hue-rotate(359deg) brightness(103%) contrast(105%);"></span>
+               <span class="visually-hidden">Next</span>
+               </button>
+            </div>
+         </section>
+         <div class="container-fluid bg-dark text-bg-primary contacts-container" id="contacts-section">
+            <section class="contacts">
+               <section class="section-header">
+                  <h3 data-i18="contacts"></h3>
+               </section>
+            </section>
+            <div class="container d-flex justify-content-center">
+               <div class="contacts-block">
+                  <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="+79370763201">
+                     <div class="contacts-item">
+                        <a href="tel: +79370763201" class="contacts-href tel">
+                        <img src="./assets/svg/telephone-fill.svg" alt="" class="contacts-img tel">
+                        <span class="contacts-text">Phone</span>
+                        </a>
+                     </div>
+                  </span>
+                  <div class="contacts-item">
+                     <a href="mailto:artur_stamboltsyan@mail.ru" class="contacts-href">
+                     <img src="./assets/svg/envelope-fill.svg" alt="" class="contacts-img mail">
+                     <span class="contacts-text">Email</span>
+                     </a>
+                  </div>
+                  <div class="contacts-item">
+                     <a href="https://t.me/tripwide" class="contacts-href">
+                     <img src="./assets/svg/telegram.svg" alt="" class="contacts-img telegram">
+                     <span class="contacts-text">Telegram</span>
+                     </a>
+                  </div>
+                  <div class="contacts-item">
+                     <a href="https://vk.com/arturggbb" class="contacts-href">
+                     <img src="./assets/svg/vk-with-circle-svgrepo-com.svg" alt="" class="contacts-img vk">
+                     <span class="contacts-text">VK</span>
+                     </a>
+                  </div>
+                  <div class="contacts-item">
+                     <a href="https://api.whatsapp.com/send/?phone=79370763201&text=Здравствуйте%2C+у+меня+есть+вопрос" class="contacts-href">
+                     <img src="./assets/svg/whatsapp.svg" alt="" class="contacts-img whatsapp">
+                     <span class="contacts-text">WhatsApp</span>
+                     </a>
+                  </div>
+                  <div class="contacts-item">
+                     <a href="https://github.com/Arturstm" class="contacts-href">
+                     <img src="./assets/svg/github.svg" alt="" class="contacts-img github">
+                     <span class="contacts-text">GitHub</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer></footer>
+      <script type="module" src="./index.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+   </body>
+</html>
